@@ -1,0 +1,16 @@
+[package]
+name = "horizon-xaero-map"
+version = "26.6.2"
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+description = "Port of Xaero's Minimap (26.6.2) and Xaero's World Map (1.47.2) for Horizon"
+
+[dependencies]
+horizon-os = { path = "../horizon-os" }
+png = "0.18"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1.0.151"
+
+[lints]
+workspace = true
